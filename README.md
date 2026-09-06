@@ -14,7 +14,7 @@ These findings point to three priorities: investigate and reduce post-plan-selec
 
 The product has no data-driven view of where users drop out of the signup funnel, which acquisition channels are actually worth the spend behind them, or why subscribers cancel. Leadership needs to know where users are being lost, which channels deserve more or less investment, and where retention risk is concentrated — so product and marketing decisions can be based on evidence rather than instinct.
 
-![Executive Overview](images/dashboard_executive_overview.png)
+![Executive Overview](images/executive_summary.png)
 
 ## Dashboard
 
@@ -22,7 +22,7 @@ Report structure: Executive Overview -> Funnel & Channel Detail -> Acquisition &
 
 | Funnel & Channel Detail | Acquisition & Revenue | Retention & Risk |
 |---|---|---|
-| ![Funnel & Channel Detail](images/dashboard_funnel_channel_detail.png) | ![Acquisition & Revenue](images/dashboard_acquisition_revenue.png) | ![Retention & Risk](images/dashboard_retention_risk.png) |
+| ![Funnel & Channel Detail](images/funnel_&_channel_detail.png) | ![Acquisition & Revenue](images/acquisition_&_revenue.png) | ![Retention & Risk](images/retention_&_risk.png) |
 
 ## Methodology
 
@@ -39,8 +39,6 @@ Report structure: Executive Overview -> Funnel & Channel Detail -> Acquisition &
 **Power BI:** DAX measures, data modelling and relationships, Power Query, conditional formatting, interactive filtering, and dashboard design.
 
 ## Key Findings
-
-![Funnel & Channel Detail](images/dashboard_funnel_channel_detail.png)
 
 1. **Largest funnel drop-off.** 35.3% of users who selected a plan never completed subscription — the largest loss point anywhere in the journey.
 2. **KYC entry bottleneck.** `email_verified -> kyc_submitted` loses 29.4% of users, while `kyc_submitted -> kyc_approved` loses ~17.5%. The observed drop-off is concentrated at KYC entry rather than review.
